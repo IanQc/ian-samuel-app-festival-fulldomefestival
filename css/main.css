@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Michroma";
+    src: url(../assets/fonts/Michroma-Regular.ttf) format(truetype);
+}
+
+:root {
+    --mauve: #7530e3;
+    --rose: #e1afcc;
+    --vert: #5dac9c;
+    --gris: #D9D9D9;
+    --noir: #000000;
+}
+
+h1, .h1 {
+    font-size: 36px;
+    color: var(--gris);
+}
+
+h2, .h2 {
+    font-size: 32px;
+    color: var(--vert);
+}
+
+h3, .h3 {
+    font-size: 20px;
+    color: var(--noir);
+}
+
+h4, .h4 {
+    font-size: 18px;
+    color: var(--noir);
+}
+
+h5, .h5 {
+    font-size: 10px;
+    color: var(--mauve);
+}
+
+h6, .h6 {
+    font-size: 8px;
+    color: var(--mauve);
+}
+
+/*----- Styles Généraux -----*/
+/*----- Section Hero -----*/
