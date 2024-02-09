@@ -11,6 +11,14 @@
     
 }
 
+body {
+    background-color: var(--noir);
+}
+
+main{
+    margin-top: 70px;
+}
+
 .navbar {
     background-color: var(--vert);
 }
