@@ -16,7 +16,7 @@ body {
 }
 
 main{
-    margin-top: 70px;
+    margin-top: 85px;
 }
 
 .navbar {
@@ -29,3 +29,15 @@ footer {
 }
 /*----- Styles Généraux -----*/
 /*----- Section Hero -----*/
+
+.cadre {
+    aspect-ratio: 5/9;
+    box-shadow: 0 0 13px 13px rgba(217, 217, 217, 0.6);
+    border-radius: 15px;
+}
+
+.hero {
+    background-color: var(--vert);
+    border-radius: 15px;
+    width: 55%;
+}
