@@ -22,5 +22,10 @@ main{
 .navbar {
     background-color: var(--vert);
 }
+
+footer {
+    background-color: var(--mauve);
+    
+}
 /*----- Styles Généraux -----*/
 /*----- Section Hero -----*/
