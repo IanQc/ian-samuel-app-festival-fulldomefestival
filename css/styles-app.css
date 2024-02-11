@@ -30,4 +30,10 @@
   border-radius: 100%;
 }
 
+footer{
+  background-color: aqua;
+  margin: 1rem;
+  padding-top: 1rem;
+}
+
 /*----- Section Hero -----*/
