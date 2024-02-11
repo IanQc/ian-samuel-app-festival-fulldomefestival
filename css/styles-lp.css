@@ -39,5 +39,24 @@ footer {
 .hero {
     background-color: var(--vert);
     border-radius: 15px;
-    width: 55%;
+    width: 75%;
+    height: 40px;
+}
+
+.box_fonctinalite {
+    width: 75%;
+    background-color: var(--rose);
+    border-radius: 15px;
+    height: 100%;
+}
+
+hr {
+    color: var(--vert);
+    border-width: 5px;
+    border-radius: 15px;
+    opacity: 100%;
+}
+
+.sous-titre{
+    color: var(--vert);
 }
