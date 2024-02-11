@@ -39,7 +39,7 @@ footer {
 .hero {
     background-color: var(--vert);
     border-radius: 15px;
-    width: 75%;
+    width: 100%;
     height: 40px;
 }
 
