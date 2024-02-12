@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "Michroma";
-    src: url(../assets/fonts/Michroma-Regular.ttf) format(truetype);
-}
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
 :root {
     --mauve: #7530e3;
@@ -9,6 +6,10 @@
     --vert: #5dac9c;
     --gris: #D9D9D9;
     --noir: #000000;
+}
+
+*{
+    font-family: "Michroma";
 }
 
 h1, .h1 {
