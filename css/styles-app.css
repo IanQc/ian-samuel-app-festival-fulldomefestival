@@ -1,19 +1,19 @@
 /*----- Styles Généraux -----*/
 
-*{
+* {
   padding: 0;
   margin: 0;
   font-family: Michroma;
 }
 
-body{
+body {
   background-color: var(--noir);
   height: 100vh;
   width: 100vw;
   overflow: hidden;
 }
 
-p{
+p {
   font-size: smaller;
 }
 
@@ -42,14 +42,14 @@ p{
   width: 80%;
 }
 
-.lien-logo{
+.lien-logo {
   padding: 0%;
   margin: 0%;
   border: none;
 }
 
 
-.profil{
+.profil {
   background-image: linear-gradient(var(--rose), var(--gris));
   border-radius: 50%;
   height: 8vh;
@@ -57,7 +57,7 @@ p{
   overflow: hidden;
 }
 
-.photo-profil{
+.photo-profil {
   height: 100%;
   width: 100%;
   background-image: url(/assets/artworks/logo/photo_profil.png);
@@ -65,13 +65,7 @@ p{
   background-size: 100%;
 }
 
-/*footer{
-  position: absolute;
-  background-color: aqua;
-  bottom: 0px;
-}*/
-
-.bas-de-page{
+.bas-de-page {
   position: absolute;
   height: 16vh;
   width: 100vw;
@@ -80,46 +74,35 @@ p{
   font-size: 80%;
 }
 
-.tim{
+.tim {
   width: 40%;
   height: auto;
   background-image: url("https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg");
 }
 
-.container-fluid{
+.container-fluid {
   margin: 0;
   padding: 0%;
 }
 
-.row{
+.row {
   padding: 0%;
-  /*width: 100vw;*/
 }
 
-.row-navbar{
+.row-navbar {
   width: 100%;
 }
 
-/*main{
-  position: absolute;
-  top: 50vh;
-  width: 100vw;
-}*/
-
-/*.loupe{
-  width: 5%;
-}*/
-
-.bi{
+.bi {
   color: var(--vert);
 }
 
-.search-filtre{
+.search-filtre {
   position: absolute;
   top: 10vh;
 }
 
-.search{
+.search {
   color: var(--vert);
   background-image: linear-gradient(var(--rose), var(--gris));
   border: 0;
@@ -127,43 +110,35 @@ p{
   font-size: 70%;
 }
 
-.search-bar{
+.search-bar {
   border: 0;
   background-color: var(--noir);
-  /*border-radius: 50%;*/
 }
 
-.input-group-text{
+.input-group-text {
   background-image: linear-gradient(var(--rose), var(--gris));
   margin: 0%;
   border: 0;
 }
 
-.recherche{
-  /*left: 15px;
-  position: absolute;*/
+.recherche {
   width: 100%;
   overflow: hidden;
 }
 
-.filtres{
+.filtres {
   width: 100%;
   overflow: hidden;
 }
 
-/*.list-group{
-  right: 0px;
-  position: absolute;
-}*/
-
-.list-group-item{
+.list-group-item {
   padding: 0%;
   border: 0;
   margin: 1%;
   background-color: var(--noir)
 }
 
-.btn-primary{
+.btn-primary {
   background-image: linear-gradient(var(--rose), var(--gris));
   border: 0;
   color: var(--vert);
