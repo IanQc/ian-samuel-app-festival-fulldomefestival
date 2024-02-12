@@ -35,6 +35,7 @@ p {
 
 .logo {
   width: 80%;
+  background-repeat: no-repeat;
 }
 
 .lien-logo {
