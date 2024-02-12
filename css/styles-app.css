@@ -95,6 +95,7 @@ p {
 .search-filtre {
   position: absolute;
   top: 10vh;
+  width: 100vw;
 }
 
 .search {
@@ -136,6 +137,15 @@ p {
   background-image: linear-gradient(var(--rose), var(--gris));
   border: 0;
   color: var(--vert);
+}
+
+@media screen and (min-width: 575px){
+
+  .filtres {
+    width: 100vw;
+    overflow: visible;
+  }
+  
 }
 
 
