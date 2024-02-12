@@ -149,5 +149,9 @@ p {
   
 }
 
+img{
+  background-repeat: no-repeat;
+}
+
 
 /*----- Section Hero -----*/
