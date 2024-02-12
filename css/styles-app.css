@@ -3,6 +3,14 @@
 *{
   padding: 0;
   margin: 0;
+  font-family: Michroma;
+}
+
+body{
+  background-color: var(--noir);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .navbar {
@@ -66,11 +74,58 @@
 
 .row{
   padding: 0%;
+  width: 100vw;
 }
 
 main{
   position: absolute;
   top: 50vh;
+  width: 100vw;
 }
+
+/*.loupe{
+  width: 5%;
+}*/
+
+.bi{
+  color: var(--vert);
+}
+
+.search{
+  color: var(--vert);
+  background-image: linear-gradient(var(--rose), var(--gris));
+  border: 0;
+  max-width: 85vw;
+  font-size: 70%;
+}
+
+.search-bar{
+  margin: 0%;
+  background-color: var(--noir);
+  /*border-radius: 50%;*/
+  width: 100%;
+}
+
+.input-group-text{
+  background-image: linear-gradient(var(--rose), var(--gris));
+  margin: 0%;
+  border: 0;
+}
+
+/*.recherche{
+  border-radius: 100%;
+}*/
+
+.filtres{
+  overflow: hidden;
+}
+
+.list-group-item{
+  padding: 0%;
+  border: 0;
+  margin: 1%;
+  background-color: var(--noir)
+}
+
 
 /*----- Section Hero -----*/
