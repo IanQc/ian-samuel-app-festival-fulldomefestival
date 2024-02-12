@@ -30,20 +30,24 @@
   border-radius: 100%;
 }
 
-footer{
+/*footer{
   position: absolute;
   background-color: aqua;
   bottom: 0px;
-}
+}*/
 
 .bas-de-page{
   position: absolute;
+  height: 16vh;
+  width: 100vw;
   background-color: var(--vert);
   bottom: 0px;
+  font-size: 80%;
 }
 
 .tim{
-  width: 100%;
+  width: 40%;
+  background-image: url("https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg");
 }
 
 /*----- Section Hero -----*/
