@@ -36,6 +36,7 @@ footer {
     border-radius: 15px;
     padding: 0;
     margin: 0;
+    height: 1200px;
 }
 
 .hero {
@@ -65,4 +66,9 @@ hr {
 
 iframe {
     border-radius: 15px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
 }
