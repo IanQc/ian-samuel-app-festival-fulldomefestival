@@ -1,8 +1,8 @@
 /*----- Styles Généraux -----*/
 
 *{
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar {
@@ -16,7 +16,7 @@
 }
 
 .lignes-burger {
-  width: 80%;
+  width: 60%;
 }
 
 .logo {
@@ -26,14 +26,28 @@
 
 
 .profil{
-  background-color: var(--gris);
+  background-image: linear-gradient(var(--rose), var(--gris));
   border-radius: 100%;
 }
 
-footer{
+/*footer{
+  position: absolute;
   background-color: aqua;
-  margin: 1rem;
-  padding-top: 1rem;
+  bottom: 0px;
+}*/
+
+.bas-de-page{
+  position: absolute;
+  height: 16vh;
+  width: 100vw;
+  background-color: var(--vert);
+  bottom: 0px;
+  font-size: 80%;
+}
+
+.tim{
+  width: 40%;
+  background-image: url("https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg");
 }
 
 /*----- Section Hero -----*/
