@@ -23,13 +23,13 @@
     <header>
 
         <nav class="navbar navbar-ligth navbar-expand-lg fixed-top">
-            <div class="container">
+            <div class="container-fluid">
 
-                <div class="row justify-content-center">
+                <div class="row justify-content-between">
 
 
                     <!-- Hamburger button -->
-                    <button class="navbar-toggler col-3 burger" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                    <button class="navbar-toggler col-2 burger" data-bs-toggle="collapse" data-bs-target="#mainNav"
                         aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
 
                         <span class="navbar-toggler-icon lignes-burger"></span>
@@ -58,11 +58,11 @@
                     </div>
 
 
-                    <a class="navbar-brand col-6" href="index.html">
+                    <a class="navbar-brand col-6 lien-logo" href="index.html">
                         <img class="logo" src="/assets/artworks/logo/logo_fulldomefestival.png" alt=""> </a>
 
 
-                    <div class="col-3 profil">
+                    <div class="col-2 profil">
 
 
                     </div>
@@ -81,18 +81,29 @@
 
     <main>
 
-        <div class="container-fluid">
+        <div class="container-fluid ">
+
+            <div class="col-12 ">
+                <div class="input-group m-3">
+                    <span class="input-group-text"><i class="bi bi-search"></i></span>
+                    <input type="text" class="form-control" placeholder="Rechercher une oeuvre, un artiste...">
+                </div>
+            </div>
+
+            <!--form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form-->
+
+            <!--div class="row">
+
+
+
+            </div-->
 
             <div class="row">
 
             </div>
-
-            <div class="row">
-
-            </div>
-
-
-            <input type="text">
 
         </div>
 
@@ -101,8 +112,9 @@
     <footer>
 
         <div class="container-fluid mt-3 p-3 bas-de-page">
-            <div class="row justify-content-center">
-                <p class="col-12 col-sm-6">Projet fictif réalisé dans le cadre du cours Optimisation Web 582-424MO. Ui de l'app créé par Samuel
+            <div class="row justify-content-center justify-content-sm-between">
+                <p class="col-12 col-sm-6 text-center">Projet fictif réalisé dans le cadre du cours Optimisation Web 582-424MO. Ui
+                    de l'app créé par Samuel
                     Desmeules-Voyer et Ian Corbin</p>
                 <img class="tim col-12 col-sm-6" src="/assets/artworks/logo/logo_tim.png" alt="">
             </div>

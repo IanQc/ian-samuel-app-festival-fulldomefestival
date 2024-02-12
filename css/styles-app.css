@@ -7,12 +7,13 @@
 
 .navbar {
   background-color: var(--vert);
+  padding: 0%;
 }
 
 .burger {
-  border-radius: 100%;
   background-color: var(--vert);
-  border: 2px solid var(--noir);
+  border: 3px solid rgba(0, 0, 0, 0);
+  height: 10%;
 }
 
 .lignes-burger {
@@ -24,10 +25,17 @@
   width: 100%;
 }
 
+.lien-logo{
+  padding: 0%;
+  margin: 0%;
+  border: none;
+}
+
 
 .profil{
   background-image: linear-gradient(var(--rose), var(--gris));
   border-radius: 100%;
+  height: 7vh;
 }
 
 /*footer{
@@ -47,7 +55,22 @@
 
 .tim{
   width: 40%;
+  height: auto;
   background-image: url("https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg");
+}
+
+.container-fluid{
+  margin: 0;
+  padding: 0%;
+}
+
+.row{
+  padding: 0%;
+}
+
+main{
+  position: absolute;
+  top: 50vh;
 }
 
 /*----- Section Hero -----*/
