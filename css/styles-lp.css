@@ -6,6 +6,10 @@
     --noir: #000000;
 }
 
+*{
+    font-family: "Michroma";
+}
+
 .logo {
     width: 100px;
     
