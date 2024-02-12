@@ -114,6 +114,11 @@ p{
   color: var(--vert);
 }
 
+.search-filtre{
+  position: absolute;
+  top: 10vh;
+}
+
 .search{
   color: var(--vert);
   background-image: linear-gradient(var(--rose), var(--gris));
@@ -123,10 +128,9 @@ p{
 }
 
 .search-bar{
-  margin: 0%;
+  border: 0;
   background-color: var(--noir);
   /*border-radius: 50%;*/
-  width: 100%;
 }
 
 .input-group-text{
@@ -135,19 +139,34 @@ p{
   border: 0;
 }
 
-/*.recherche{
-  border-radius: 100%;
-}*/
-
-.filtres{
+.recherche{
+  /*left: 15px;
+  position: absolute;*/
+  width: 100%;
   overflow: hidden;
 }
+
+.filtres{
+  width: 100%;
+  overflow: hidden;
+}
+
+/*.list-group{
+  right: 0px;
+  position: absolute;
+}*/
 
 .list-group-item{
   padding: 0%;
   border: 0;
   margin: 1%;
   background-color: var(--noir)
+}
+
+.btn-primary{
+  background-image: linear-gradient(var(--rose), var(--gris));
+  border: 0;
+  color: var(--vert);
 }
 
 
