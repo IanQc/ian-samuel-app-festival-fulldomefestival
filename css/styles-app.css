@@ -10,7 +10,6 @@ body {
   background-color: var(--noir);
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
 }
 
 p {
@@ -22,10 +21,6 @@ p {
   background-color: var(--vert);
   padding: 0%;
 }
-
-/*.container-navbar{
-  width: 100%;
-}*/
 
 .burger {
   background-color: var(--vert);
@@ -106,13 +101,13 @@ p {
   color: var(--vert);
   background-image: linear-gradient(var(--rose), var(--gris));
   border: 0;
-  max-width: 85vw;
   font-size: 70%;
 }
 
 .search-bar {
   border: 0;
   background-color: var(--noir);
+  max-width: 85vw;
 }
 
 .input-group-text {
@@ -123,7 +118,6 @@ p {
 
 .recherche {
   width: 100%;
-  overflow: hidden;
 }
 
 .filtres {
