@@ -92,11 +92,11 @@ p {
   color: var(--vert);
 }
 
-.search-filtre {
+/*.search-filtre {
   position: absolute;
   top: 10vh;
   width: 100vw;
-}
+}*/
 
 .search {
   color: var(--vert);
@@ -151,6 +151,25 @@ p {
 img{
   background-repeat: no-repeat;
 }
+
+.card{
+  background-image: linear-gradient(var(--rose), var(--gris));
+}
+
+.cadre-oeuvre{
+  height: 20vh;
+}
+
+.image-oeuvre{
+  height: 20vh;
+}
+
+
+
+/*header{
+  position: relative;
+  height: 74.31px;
+}*/
 
 
 /*----- Section Hero -----*/
