@@ -156,12 +156,31 @@ img{
   background-image: linear-gradient(var(--rose), var(--gris));
 }
 
+.card:hover{
+  background-image: linear-gradient(var(--mauve), var(--rose));
+}
+
 .cadre-oeuvre{
   height: 20vh;
+  background-color: white;
 }
 
 .image-oeuvre{
   height: 20vh;
+}
+
+.bi-chevron-right{
+  color: var(--mauve);
+}
+
+.vedette{
+  width: 140%;
+}
+
+.top-cards{
+  max-width: 200px;
+
+  overflow: hidden;
 }
 
 
