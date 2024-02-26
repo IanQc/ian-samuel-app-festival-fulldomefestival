@@ -108,6 +108,11 @@ p {
 
 .bi-chevron-left{
   color: var(--noir);
+  font-size:200%;
+}
+
+.bi-chevron-left::before{
+  margin-top: 40%;
 }
 
 /*.search-filtre {
