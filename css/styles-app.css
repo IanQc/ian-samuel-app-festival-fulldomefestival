@@ -71,6 +71,11 @@ p {
   background-size: 100%;
 }
 
+/*.bi-person-fill{
+  height: 100%;
+  width: 100%;
+}*/
+
 .bas-de-page {
   position: absolute;
   height: 16vh;
@@ -114,6 +119,25 @@ p {
 .bi-chevron-left::before{
   margin-top: 40%;
 }
+
+.bi-heart{
+  color: var(--noir);
+  font-size:200%;
+}
+
+/*.bi-person{
+  position: relative;
+  color: var(--noir);
+  font-size:500%;
+  top: -40%;
+  left: -10%;
+}*/
+
+/*.bi-person-fill::before{
+  position: relative;
+  top: 0%;
+  margin-bottom: 50%;
+}*/
 
 /*.search-filtre {
   position: absolute;
@@ -204,6 +228,13 @@ img{
 
 main{
   overflow-x: hidden;
+}
+
+.bouton-aime{
+  background-color: var(--vert);
+  border-radius: 50%;
+  height: 8vh;
+  padding: 0%;
 }
 
 /*header{
