@@ -18,8 +18,12 @@ p {
 
 .navbar {
   width: 100vw;
-  background-color: var(--vert);
+  /*background-color: var(--vert);*/
   padding: 0%;
+}
+
+.navbar-vert{
+  background-color: var(--vert);
 }
 
 .burger {
@@ -173,17 +177,19 @@ img{
   color: var(--mauve);
 }
 
-.vedette{
+#vedette{
   width: 140%;
+  /*overflow: hidden;*/
 }
 
-.top-cards{
+.vedette-cards{
   max-width: 200px;
-
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
-
+main{
+  overflow-x: hidden;
+}
 
 /*header{
   position: relative;
