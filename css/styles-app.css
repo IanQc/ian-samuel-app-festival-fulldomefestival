@@ -237,6 +237,10 @@ main{
   padding: 0%;
 }
 
+.image-artwork{
+  height: 33vh;
+}
+
 /*header{
   position: relative;
   height: 74.31px;
