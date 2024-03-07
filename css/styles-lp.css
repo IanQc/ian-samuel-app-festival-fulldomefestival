@@ -83,3 +83,61 @@ img {
     width: 100%;
     border-radius: 100%;
 }
+
+.accordion-item .accordion-header {
+    background-color: var(--bs-success);
+}
+
+.accordion-item .accordion-header .accordion-button {
+    color: var(--bs-dark);;
+}
+
+
+
+
+.accordion-item:first-of-type .accordion-header{
+    border-radius: 5px 5px 0 0 ;
+    border: 4px solid var(--bs-secondary);
+}
+
+.accordion-item:nth-of-type(2) .accordion-header{
+    border-left: 4px solid var(--bs-secondary);
+    border-right: 4px solid var(--bs-secondary);
+}
+
+.accordion-item:last-of-type .accordion-header{
+    border-radius: 0 0 5px 5px ;
+    border: 4px solid var(--bs-secondary);
+}
+
+.accordion-body{
+    background-color: var(--bs-secondary); 
+}
+
+.accordion-button{
+    background-color: var(--bs-success); 
+}
+
+
+.accordion-item:last-of-type .accordion-body{
+    border-radius: 0 0 5px 5px ;
+    border: 4px solid var(--bs-secondary);
+}
+
+.infolettre {
+    background-color: rgba(var(--bs-secondary-rgb), 0.55);
+   
+}
+
+#infolettre {
+    background-image: url(../assets/artworks/image/art1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.email-input {
+    position: relative;
+    display: inline-block;
+}
+
