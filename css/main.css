@@ -38,12 +38,13 @@ h5, .h5 {
 }
 
 h6, .h6 {
-    font-size: 8px;
+    font-size: 10px;
     color: var(--mauve);
 }
 
-p {
-    color: var(--gris);
+p, .p {
+    font-size: 10px;
+    color: var(--vert);
 }
 
 footer a {
