@@ -77,7 +77,6 @@ body {
 }*/
 
 .bas-de-page {
-  position: absolute;
   height: 16vh;
   width: 100vw;
   background-color: var(--vert);
@@ -185,6 +184,11 @@ body {
   color: var(--vert);
 }
 
+.btn-secondary{
+  background: none;
+  border-color: var(--mauve);
+}
+
 @media screen and (min-width: 575px){
 
   .filtres {
@@ -202,7 +206,7 @@ img{
   background-image: linear-gradient(var(--rose), var(--gris));
 }
 
-.card:hover{
+.vedette-cards:hover{
   background-image: linear-gradient(var(--mauve), var(--rose));
 }
 
@@ -245,5 +249,30 @@ main{
   width: auto;
 }*/
 
+/*.accordion-button.p*/.accordion-artwork{
+  background: none;
+  color: var(--vert);
+  border-color: var(--vert);
+}
+
+/*.accordion-button.p.accordion-artwork::after{
+  color: var(--vert);
+}*/
+
+.accordion-item{
+  background: none;
+  
+  border-color: var(--vert);
+}
+
+.accordion-artwork:not(.collapsed) {
+  color: var(--mauve);
+  background-image: linear-gradient(var(--rose), var(--gris));
+}
+
+/*.accordion-header{
+  background: none;
+  border: none;
+}*/
 
 /*----- Section Hero -----*/

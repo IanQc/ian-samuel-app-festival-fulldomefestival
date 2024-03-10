@@ -23,7 +23,7 @@
 
     <div class="container p-0">
 
-        <header class="row pb-5 pt-4">
+        <header class="row">
 
             <nav class="navbar navbar-ligth navbar-expand-lg fixed-top">
                 <div class="container px-0 justify-content-center">
@@ -97,14 +97,48 @@
 
         <main>
             <div class="image-artwork"></div>
-            <h1>Nom de l'oeuvre</h1>
+            <h1 class="mx-3">Nom de l'oeuvre</h1>
+            <h2 class="mx-3 h6"><i class="bi bi-map"></i> Lieu d'exposition <i class="bi bi-calendar-event ps-3"></i> Date d'exposition</h2>
+            <h3 class="h2 m-3">Artiste.s</h3>
+
+            
+
+            <div class="card artist-cards mx-3">
+                <div class="mb-2 cadre-oeuvre"></div>
+                <!--img src="#" alt="" class="cadre-oeuvre"-->
+                <div class="card-body">
+                    <h4 class="h6">Nom de l'artiste</h4>
+                    <p class="h5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button type="button" class="btn btn-secondary p-1 h5">En savoir plus</button>
+                </div>
+            </div>
+
+            <h3 class="h2 m-3">À propos de l'oeuvre</h3>
+            <div class="card mx-3 p-3">
+                <p class="h6 m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <div class="accordion mx-3 mt-3" id="accordionReservation">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headerAccordion">
+                        <button class="accordion-button p accordion-artwork" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePlaceholder" aria-expanded="true" aria-controls="collapsePlaceholder">Réservez votre place</button>
+                    </h2>
+
+                    <div id="collapsePlaceholder" class="accordion-collapse collapse collapse" aria-labelledby="headerAccordion" data-bs-parent="#accordionReservation">
+                        <div class="accordion-body"> <p>Réservations</p> </div>
+                    </div>
+
+                </div>
+            </div>
+
+
         </main>
 
         <footer>
 
             <div class="container-fluid mt-3 p-3 bas-de-page">
                 <div class="row justify-content-center justify-content-sm-between">
-                    <p class="col-12 col-sm-6 text-center">Projet fictif réalisé dans le cadre du cours Optimisation Web
+                    <p class="col-12 col-sm-6 text-center h6">Projet fictif réalisé dans le cadre du cours Optimisation Web
                         582-424MO. Ui
                         de l'app créé par Samuel
                         Desmeules-Voyer et Ian Corbin</p>
@@ -112,6 +146,8 @@
                 </div>
 
             </div>
+
+            
 
 
         </footer>
