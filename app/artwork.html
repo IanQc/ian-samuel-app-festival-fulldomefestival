@@ -109,9 +109,12 @@
                 <div class="card-body">
                     <h4 class="h6">Nom de l'artiste</h4>
                     <p class="h5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <button type="button" class="btn btn-secondary p-1 h5">En savoir plus</button>
+                    <button type="button" class="btn btn-secondary p-1 h5" data-bs-toggle="modal"
+                    data-bs-target="#enSavoirPlus">En savoir plus</button>
                 </div>
             </div>
+
+            
 
             <h3 class="h2 m-3">À propos de l'oeuvre</h3>
             <div class="card mx-3 p-3">
@@ -152,6 +155,24 @@
 
         </footer>
 
+    </div>
+
+    <div class="modal" id="enSavoirPlus" tabindex="-1">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+
+            <div class="modal-header">
+                <h2 class="modal-title titre-modal">Nom de l'artiste</h2>
+                <button class="btn-close" data-bs-dismiss="modal" aria-label="Fermer la
+                fenêtre"></button>
+            </div>
+
+            <div class="modal-body">
+                <p class="h6">Message de ma fenêtre</p>
+                </div>
+
+          </div>
+        </div>
     </div>
 
 </body>

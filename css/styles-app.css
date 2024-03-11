@@ -204,6 +204,8 @@ img{
 
 .card{
   background-image: linear-gradient(var(--rose), var(--gris));
+  border: none;
+  overflow: hidden;
 }
 
 .vedette-cards:hover{
@@ -252,7 +254,7 @@ main{
 /*.accordion-button.p*/.accordion-artwork{
   background: none;
   color: var(--vert);
-  border-color: var(--vert);
+  border: none;
 }
 
 /*.accordion-button.p.accordion-artwork::after{
@@ -261,18 +263,32 @@ main{
 
 .accordion-item{
   background: none;
-  
   border-color: var(--vert);
+  overflow: hidden;
 }
 
 .accordion-artwork:not(.collapsed) {
+  background-image: linear-gradient(var(--rose), var(--gris));
   color: var(--mauve);
+  box-shadow: none;
+}
+
+.modal-content{
   background-image: linear-gradient(var(--rose), var(--gris));
 }
 
-/*.accordion-header{
-  background: none;
+.modal-header{
   border: none;
-}*/
+}
+
+.modal{
+  display: none;
+}
+
+.modal.show{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*----- Section Hero -----*/
