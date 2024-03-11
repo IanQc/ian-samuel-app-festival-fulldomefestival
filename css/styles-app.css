@@ -173,7 +173,6 @@ body {
 
 .filtres {
   width: 100%;
-  overflow: hidden;
 }
 
 .list-group-item {
@@ -198,7 +197,6 @@ body {
 
   .filtres {
     width: 100vw;
-    overflow: visible;
   }
   
 }
@@ -236,9 +234,9 @@ img{
   /*overflow: hidden;*/
 }
 
-main{
+/*main{
   overflow-x: hidden;
-}
+}*/
 
 .bouton-aime{
   background-color: var(--vert);
@@ -251,10 +249,10 @@ main{
   height: 33vh;
 }
 
-/*header{
-  height: auto;
-  width: auto;
-}*/
+header{
+  /*height: auto;*/
+  width: 100vw;
+}
 
 /*.accordion-button.p*/.accordion-artwork{
   background: none;

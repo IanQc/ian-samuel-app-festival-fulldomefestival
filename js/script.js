@@ -21,8 +21,11 @@
 
 }
 
+let coeurButton = document.querySelector(".bouton-aime");
+let coeurIcon = document.querySelector(".bi-heart");
 
-let coeurIcon = getElementByClassName(".bi-heart");
 if(coeurIcon){
-  
+  coeurButton.addEventListener('click', function () {
+    coeurIcon.classList.add("purple");
+  })
 }
