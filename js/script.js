@@ -1,3 +1,4 @@
+ if(swiper){
 
   var swiper = new Swiper(".swiper-screenshots", {
     loop: true,
@@ -17,3 +18,11 @@
       prevEl: ".swiper-button-prev",
     },
   });
+
+}
+
+
+let coeurIcon = getElementByClassName(".bi-heart");
+if(coeurIcon){
+  
+}

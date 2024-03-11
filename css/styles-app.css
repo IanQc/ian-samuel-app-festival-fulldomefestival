@@ -124,6 +124,11 @@ body {
   font-size:250%;
 }
 
+.bi-heart.purple{
+  color: var(--mauve);
+  fill: var(--mauve);
+}
+
 .bi-person{
   color: var(--noir);
   font-size:500%;
