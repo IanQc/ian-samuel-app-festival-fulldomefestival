@@ -12,9 +12,9 @@ body {
   width: 100vw;
 }
 
-p {
+/*p {
   font-size: smaller;
-}
+}*/
 
 .navbar {
   width: 100vw;
@@ -77,7 +77,6 @@ p {
 }*/
 
 .bas-de-page {
-  position: absolute;
   height: 16vh;
   width: 100vw;
   background-color: var(--vert);
@@ -113,25 +112,24 @@ p {
 
 .bi-chevron-left{
   color: var(--noir);
-  font-size:200%;
+  font-size:250%;
 }
 
-.bi-chevron-left::before{
+/*.bi-chevron-left::before{
   margin-top: 40%;
-}
+}*/
 
 .bi-heart{
   color: var(--noir);
-  font-size:200%;
+  font-size:250%;
 }
 
-/*.bi-person{
-  position: relative;
+.bi-person{
   color: var(--noir);
   font-size:500%;
-  top: -40%;
-  left: -10%;
-}*/
+  /*top: -40%;
+  left: -10%;*/
+}
 
 /*.bi-person-fill::before{
   position: relative;
@@ -186,6 +184,11 @@ p {
   color: var(--vert);
 }
 
+.btn-secondary{
+  background: none;
+  border-color: var(--mauve);
+}
+
 @media screen and (min-width: 575px){
 
   .filtres {
@@ -203,7 +206,7 @@ img{
   background-image: linear-gradient(var(--rose), var(--gris));
 }
 
-.card:hover{
+.vedette-cards:hover{
   background-image: linear-gradient(var(--mauve), var(--rose));
 }
 
@@ -242,9 +245,34 @@ main{
 }
 
 /*header{
-  position: relative;
-  height: 74.31px;
+  height: auto;
+  width: auto;
 }*/
 
+/*.accordion-button.p*/.accordion-artwork{
+  background: none;
+  color: var(--vert);
+  border-color: var(--vert);
+}
+
+/*.accordion-button.p.accordion-artwork::after{
+  color: var(--vert);
+}*/
+
+.accordion-item{
+  background: none;
+  
+  border-color: var(--vert);
+}
+
+.accordion-artwork:not(.collapsed) {
+  color: var(--mauve);
+  background-image: linear-gradient(var(--rose), var(--gris));
+}
+
+/*.accordion-header{
+  background: none;
+  border: none;
+}*/
 
 /*----- Section Hero -----*/
