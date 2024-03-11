@@ -22,7 +22,7 @@ body {
   padding: 0%;
 }
 
-.navbar-vert{
+.navbar-vert {
   background-color: var(--vert);
 }
 
@@ -106,32 +106,32 @@ body {
   color: var(--vert);
 }
 
-.bi-chevron-right{
+.bi-chevron-right {
   color: var(--mauve);
 }
 
-.bi-chevron-left{
+.bi-chevron-left {
   color: var(--noir);
-  font-size:250%;
+  font-size: 250%;
 }
 
 /*.bi-chevron-left::before{
   margin-top: 40%;
 }*/
 
-.bi-heart{
+.bi-heart {
   color: var(--noir);
-  font-size:250%;
+  font-size: 250%;
 }
 
-.bi-heart.purple{
+.bi-heart.purple {
   color: var(--mauve);
   fill: var(--mauve);
 }
 
-.bi-person{
+.bi-person {
   color: var(--noir);
-  font-size:500%;
+  font-size: 500%;
   /*top: -40%;
   left: -10%;*/
 }
@@ -171,8 +171,16 @@ body {
   width: 100%;
 }
 
-.filtres {
-  width: 100%;
+.section-filtres {
+  width: 100vw;
+}
+
+/*.swiper-filters{
+  
+}*/
+
+.swiper-slide.slide-filtre {
+  width: auto;
 }
 
 .list-group-item {
@@ -186,50 +194,51 @@ body {
   background-image: linear-gradient(var(--rose), var(--gris));
   border: 0;
   color: var(--vert);
+  white-space: nowrap;
 }
 
-.btn-secondary{
+.btn-secondary {
   background: none;
   border-color: var(--mauve);
 }
 
-@media screen and (min-width: 575px){
+@media screen and (min-width: 575px) {
 
-  .filtres {
+  .section-filtres {
     width: 100vw;
   }
-  
+
 }
 
-img{
+img {
   background-repeat: no-repeat;
 }
 
-.card{
+.card {
   background-image: linear-gradient(var(--rose), var(--gris));
   border: none;
   overflow: hidden;
 }
 
-.vedette-cards:hover{
+.vedette-cards:hover {
   background-image: linear-gradient(var(--mauve), var(--rose));
 }
 
-.cadre-oeuvre{
+.cadre-oeuvre {
   height: 20vh;
   background-color: white;
 }
 
-.image-oeuvre{
+.image-oeuvre {
   height: 20vh;
 }
 
-#vedette{
+#vedette {
   width: 140%;
   /*overflow: hidden;*/
 }
 
-.vedette-cards{
+.vedette-cards {
   max-width: 200px;
   /*overflow: hidden;*/
 }
@@ -238,23 +247,24 @@ img{
   overflow-x: hidden;
 }*/
 
-.bouton-aime{
+.bouton-aime {
   background-color: var(--vert);
   border-radius: 50%;
   height: 8vh;
   padding: 0%;
 }
 
-.image-artwork{
+.image-artwork {
   height: 33vh;
 }
 
-header{
+header {
   /*height: auto;*/
   width: 100vw;
 }
 
-/*.accordion-button.p*/.accordion-artwork{
+/*.accordion-button.p*/
+.accordion-artwork {
   background: none;
   color: var(--vert);
   border: none;
@@ -264,7 +274,7 @@ header{
   color: var(--vert);
 }*/
 
-.accordion-item{
+.accordion-item {
   background: none;
   border-color: var(--vert);
   overflow: hidden;
@@ -276,19 +286,19 @@ header{
   box-shadow: none;
 }
 
-.modal-content{
+.modal-content {
   background-image: linear-gradient(var(--rose), var(--gris));
 }
 
-.modal-header{
+.modal-header {
   border: none;
 }
 
-.modal{
+.modal {
   display: none;
 }
 
-.modal.show{
+.modal.show {
   display: flex;
   justify-content: center;
   align-items: center;

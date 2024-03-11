@@ -8,41 +8,48 @@
     --noir: #000000;
 }
 
-*{
+* {
     font-family: "Michroma";
 }
 
-h1, .h1 {
+h1,
+.h1 {
     font-size: 36px;
     color: var(--gris);
 }
 
-h2, .h2 {
+h2,
+.h2 {
     font-size: 30px;
     color: var(--vert);
 }
 
-h3, .h3 {
+h3,
+.h3 {
     font-size: 18px;
     color: var(--noir);
 }
 
-h4, .h4 {
+h4,
+.h4 {
     font-size: 16px;
     color: var(--noir);
 }
 
-h5, .h5 {
+h5,
+.h5 {
     font-size: 12px;
     color: var(--mauve);
 }
 
-h6, .h6 {
+h6,
+.h6 {
     font-size: 10px;
     color: var(--mauve);
 }
 
-p, .p {
+p,
+.p {
     font-size: 10px;
     color: var(--vert);
 }
