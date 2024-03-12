@@ -234,8 +234,10 @@ img {
 }
 
 #vedette {
-  width: 140%;
-  /*overflow: hidden;*/
+  width: 100vw;
+  overflow: hidden;
+  /*width: 140%;
+  overflow: hidden;*/
 }
 
 .vedette-cards {
@@ -302,6 +304,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.text-vedette{
+  width: 100vw;
 }
 
 /*----- Section Hero -----*/

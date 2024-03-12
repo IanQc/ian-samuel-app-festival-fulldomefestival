@@ -23,11 +23,11 @@ if (swiper) {
 
 if (swiperApp) {
 
-  var swiperApp = new Swiper(".swiper-screenshots", {
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+  var swiperApp = new Swiper(".swiper-filters", {
+    direction: 'horizontal',
+    grabCursor: true,
+    effect: 'slide',
+    spaceBetween:3
   });
 
 }
