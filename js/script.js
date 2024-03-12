@@ -38,6 +38,7 @@ if (swiperVedette) {
     direction: 'horizontal',
     grabCursor: true,
     effect: 'slide',
+    slidesPerView: 3,
     spaceBetween:3
   });
 
