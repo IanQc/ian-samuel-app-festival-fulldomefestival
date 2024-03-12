@@ -21,9 +21,20 @@ if (swiper) {
 
 }
 
-if (swiperApp) {
+if (swiperFiltres) {
 
-  var swiperApp = new Swiper(".swiper-filters", {
+  var swiperFiltres = new Swiper(".swiper-filters", {
+    direction: 'horizontal',
+    grabCursor: true,
+    effect: 'slide',
+    spaceBetween:3
+  });
+
+}
+
+if (swiperVedette) {
+
+  var swiperVedette = new Swiper(".swiper-featured-artworks", {
     direction: 'horizontal',
     grabCursor: true,
     effect: 'slide',
