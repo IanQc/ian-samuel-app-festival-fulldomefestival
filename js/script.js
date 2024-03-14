@@ -1,4 +1,4 @@
-if (swiper) {
+/*if (swiper) {
 
   var swiper = new Swiper(".swiper-screenshots", {
     loop: true,
@@ -20,7 +20,7 @@ if (swiper) {
   });
 
 }
-
+*/
 if (swiperFiltres) {
 
   var swiperFiltres = new Swiper(".swiper-filters", {
@@ -52,3 +52,21 @@ if (coeurIcon) {
     coeurIcon.classList.add("purple");
   })
 }
+var swiper = new Swiper(".swiper-screenshots", {
+  loop: true,
+  centeredSlides: true,
+  breakpoints: {
+      0: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+      },
+      1200: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+      },
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

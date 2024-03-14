@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/styles-lp.css">
    
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="mainNav">
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
             <div class="container">
@@ -57,11 +57,9 @@
     </header>
 
     <main>
-        <section id="appli"  data-bs-spy="scroll">
+        <section>
             <div class="container" >
-
-            
-                <div id="appli" data-bs-target="#appli" class=" row justify-content-between " > 
+                <div id="appli"  class=" row justify-content-between " > 
                     <div class="col-lg-4 align-self-center text-center text-lg-start p-5">
                         <h1>Découvrez l’appli officielle du festival FULLDOMEFESTIVAL</h1>
                         <br>
@@ -77,10 +75,10 @@
                 </div>
                 <br>
         </section>
-            <section id="fonctionnalités" data-bs-spy="scroll">
+            <section>
             <div class="container" >
             <br>
-            <div class="text-center" id="fonctionnalités"  data-bs-target="#fonctionnalités">
+            <div class="text-center" id="fonctionnalités"  >
                 <h1>Fonctionnalités</h1>
                 <h3 class="sous-titre">En téléchargeant notre appli. Vous allez profiter d'une foule de fonctionnalités qui vont permettreont de vivre une expérience totale et complète lors des expositions et des performances du festival.</h3>
                 <br>
@@ -167,10 +165,10 @@
             </section>
 
 
-            <section id="en_voir_plus" data-bs-spy="scroll">
+            <section>
                 <br>
                 <div class="container" ></div>
-                    <div id="en_voir_plus" data-bs-target="#en_voir_plus">
+                    <div id="en_voir_plus">
                         <h1 class="text-center">Prévisualisez l'interface de l'appli</h1>
                         <div class="swiper swiper-screenshots col-6 ">
                             <div class="swiper-wrapper d-flex  align-items-center  py-5 ">
@@ -188,10 +186,10 @@
                     </div>
                 </div>
            </section>
-           <section id="témoignages" data-bs-spy="scroll">
+           <section>
             <br>
             <div class="container">
-                <div class="text-center" id="témoignages"  data-bs-target="#témoignages">
+                <div class="text-center" id="témoignages"  >
                     <h1>Témoignages de gens qui utilisent l'appli</h1>
                     <br>
                     <div class="row justify-content-center mb-md-5">
@@ -274,11 +272,9 @@
         
 
 
-        <section id="FAQ" class=" d-flex  align-items-center justify-content-center" data-bs-spy="scroll">
-            
-            <div class="container" data-bs-target="#FAQ">
-                <div class="col-lg-12 col-8 py-5 py-lg-0">
-                    <div id="FAQ" data-bs-target="#FAQ">
+        <section class="py-5">
+            <div class="container">
+                    <div id="FAQ" class=" col-12 py-5 py-lg-0">
                         <h1 class="text-center" >FAQ - Foire aux questions</h1>
                         <br>
                         <br>
@@ -322,18 +318,19 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </section>
         
        
-        <section id="infolettre" class="p-5 d-flex  align-items-center" data-bs-target="#abonne" data-bs-target="#infolettre">
-            <div class="container infolettre p-4 col-12 col-md-6 me-md-4   ">
-                <div class="row text-md-start text-center justify-content-center">
-                    <div class="col-12">
-                        <h1>Infolettre</h1>
-                        <p>Abonnez-vous à notre infolettre pour recevoir des nouvelles sur les mises-à-jour et nouvelles fonctionnalités de l’appli, en plus de recevoir en primeur les détails des prochaines éditions du festival.</p>
-                        <button type="button" class="btn btn-primary col-6" data-bs-toggle="modal" data-bs-target="#abonne">Je m'abonne</button>
+        <section  id="background-info" class="p-5 d-flex  align-items-center justify-content-end" data-bs-target="#abonne" >
+            <div id="infolettre"  class=" p-4 col-12 col-md-6 me-md-4">
+                <div class="container ">
+                    <div class="row text-md-start text-center justify-content-center">
+                        <div class="col-12">
+                            <h1>Infolettre</h1>
+                            <p>Abonnez-vous à notre infolettre pour recevoir des nouvelles sur les mises-à-jour et nouvelles fonctionnalités de l’appli, en plus de recevoir en primeur les détails des prochaines éditions du festival.</p>
+                            <button type="button" class="btn btn-primary col-6" data-bs-toggle="modal" data-bs-target="#abonne">Je m'abonne</button>
+                        </div>
                     </div>
                 </div>
             </div>

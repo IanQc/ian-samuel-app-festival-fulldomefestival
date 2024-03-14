@@ -124,13 +124,11 @@ img {
     border: 4px solid var(--bs-secondary);
 }
 
-.infolettre {
+#infolettre {
     background-color: rgba(var(--bs-secondary-rgb), 0.65);
-    
-   
 }
 
-#infolettre {
+#background-info {
     background-image: url(../assets/artworks/image/art1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
