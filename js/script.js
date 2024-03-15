@@ -27,7 +27,7 @@ if (swiperFiltres) {
     direction: 'horizontal',
     grabCursor: true,
     effect: 'slide',
-    spaceBetween:3
+    spaceBetween: 3
   });
 
 }
@@ -39,7 +39,7 @@ if (swiperVedette) {
     grabCursor: true,
     effect: 'slide',
     slidesPerView: 3,
-    spaceBetween:3
+    spaceBetween: 3
   });
 
 }
@@ -52,21 +52,26 @@ if (coeurIcon) {
     coeurIcon.classList.add("purple");
   })
 }
-var swiper = new Swiper(".swiper-screenshots", {
-  loop: true,
-  centeredSlides: true,
-  breakpoints: {
+
+
+
+if (swiper) {
+  var swiper = new Swiper(".swiper-screenshots", {
+    loop: true,
+    centeredSlides: true,
+    breakpoints: {
       0: {
-          slidesPerView: 1,
-          spaceBetween: 30,
+        slidesPerView: 1,
+        spaceBetween: 30,
       },
       1200: {
-          slidesPerView: 3,
-          spaceBetween: 30,
+        slidesPerView: 3,
+        spaceBetween: 30,
       },
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+}
