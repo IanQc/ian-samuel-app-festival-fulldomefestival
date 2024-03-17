@@ -228,10 +228,10 @@ img {
   background-image: linear-gradient(var(--mauve), var(--rose));
 }
 
-.cadre-oeuvre {
+/*.cadre-oeuvre {
   height: 20vh;
-  background-color: white;
-}
+  //background-color: white;*
+}*/
 
 .image-oeuvre {
   height: 20vh;
