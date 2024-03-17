@@ -54,6 +54,11 @@ p,
     color: var(--vert);
 }
 
+.text-date-heure{
+    font-size: 8px;
+    color: var(--vert);
+}
+
 footer a {
     color: var(--gris);
     text-decoration: none;
