@@ -260,8 +260,12 @@ img {
   padding: 0%;
 }
 
-.image-artwork {
+.image-artwork-wrapper {
   height: 33vh;
+}
+
+.image-artwork {
+  height: 35vh;
 }
 
 header {
