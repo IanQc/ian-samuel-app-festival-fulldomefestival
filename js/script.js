@@ -48,7 +48,8 @@ let coeurButton = document.querySelector(".bouton-aime");
 let coeurIcon = document.querySelector(".bi-heart");
 
 if (coeurIcon) {
-  coeurButton.addEventListener('click', function () {
+  coeurButton.addEventListener('hover', function () {
+    
     coeurIcon.classList.add("purple");
   })
 }
