@@ -27,7 +27,7 @@
     direction: 'horizontal',
     grabCursor: true,
     effect: 'slide',
-    spaceBetween: 3
+    //spaceBetween: 3
   });
 
 
@@ -38,8 +38,8 @@
     direction: 'horizontal',
     grabCursor: true,
     effect: 'slide',
-    slidesPerView: 3,
-    spaceBetween: 3
+    //slidesPerView: 3,
+    //spaceBetween: 3
   });
 
 
@@ -113,7 +113,5 @@ if (swiperlp){
     spaceBetween: 3
   })
 }
-
-
 
 
