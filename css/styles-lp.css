@@ -166,6 +166,7 @@ section{
 }
 
 .swiper-slide{
+    background-image: url(../assets/artworks/image/cell.png);
     border: 5px solid var(--bs-success);
     border-radius: 27px;
 }
