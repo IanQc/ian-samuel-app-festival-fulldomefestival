@@ -102,15 +102,15 @@ if (swiperlp){
 } else if (swiper_app){
   const deuxiemeSwiper = new Swiper (".swiper-filters", {
     slidesPerView: "auto",
-    spaceBetween: 12,
+    spaceBetween: 5,
     focusableElements: false,
   });
   const troisiemeSwiper = new Swiper (".swiper-featured-artworks", {
     direction: 'horizontal',
     grabCursor: true,
     effect: 'slide',
-    slidesPerView: 3,
-    spaceBetween: 3
+    slidesPerView: 2.5,
+    spaceBetween: 10
   })
 }
 
