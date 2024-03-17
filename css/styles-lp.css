@@ -100,9 +100,9 @@ img {
     border: 4px solid var(--bs-secondary);
 }
 
-.accordion-item:nth-of-type(2) .accordion-header{
-    border-left: 4px solid var(--bs-secondary);
-    border-right: 4px solid var(--bs-secondary);
+.accordion-item:nth-of-type(2) .accordion-header, .accordion-item:nth-of-type(3) .accordion-header{
+    border: 4px solid var(--bs-secondary);
+    
 }
 
 .accordion-item:last-of-type .accordion-header{
@@ -161,14 +161,11 @@ section{
 
 .slider-img{
     border-radius: 25px;
-    width: 50%;
-    height: 50%;
-    
+    width: 100%;
+    height: 100%;
 }
 
 .swiper-slide{
-    background-image: url(../assets/artworks/image/cell.png);
-    background-size: cover;
     border: 5px solid var(--bs-success);
     border-radius: 27px;
 }
