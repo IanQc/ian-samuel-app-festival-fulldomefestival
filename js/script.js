@@ -101,10 +101,9 @@ if (swiperlp){
   });
 } else if (swiper_app){
   const deuxiemeSwiper = new Swiper (".swiper-filters", {
-    direction: 'horizontal',
-    grabCursor: true,
-    effect: 'slide',
-    spaceBetween: 3
+    slidesPerView: "auto",
+    spaceBetween: 12,
+    focusableElements: false,
   });
   const troisiemeSwiper = new Swiper (".swiper-featured-artworks", {
     direction: 'horizontal',
