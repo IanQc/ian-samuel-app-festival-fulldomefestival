@@ -21,7 +21,7 @@
 
 }
 */
-if (swiperFiltres) {
+
 
   var swiperFiltres = new Swiper(".swiper-filters", {
     direction: 'horizontal',
@@ -30,9 +30,9 @@ if (swiperFiltres) {
     spaceBetween: 3
   });
 
-}
 
-if (swiperVedette) {
+
+
 
   var swiperVedette = new Swiper(".swiper-featured-artworks", {
     direction: 'horizontal',
@@ -42,7 +42,7 @@ if (swiperVedette) {
     spaceBetween: 3
   });
 
-}
+
 
 let coeurButton = document.querySelector(".bouton-aime");
 let coeurIcon = document.querySelector(".bi-heart");
@@ -55,7 +55,7 @@ if (coeurIcon) {
 
 
 
-if (swiper) {
+
   var swiper = new Swiper(".swiper-screenshots", {
     loop: true,
     centeredSlides: true,
@@ -74,4 +74,9 @@ if (swiper) {
       prevEl: ".swiper-button-prev",
     },
   });
-}
+
+
+
+
+
+
