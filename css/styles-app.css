@@ -348,4 +348,21 @@ input{
   width: 150%;
 }
 
+.vignette-autre{
+  border-radius: 50%;
+  height: 50%;
+}
+
+.autre-card-body{
+  height: 180px;
+}
+
+.div-autre-card{
+  height: 80px;
+}
+
+/*.div-autre-info{
+  text-align: end;
+}*/
+
 /*----- Section Hero -----*/
