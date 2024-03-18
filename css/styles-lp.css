@@ -1,3 +1,5 @@
+
+/*----- Styles Généraux -----*/
 :root {
     --mauve: #7530e3;
     --rose: #e1afcc;
@@ -31,7 +33,16 @@ footer {
     background-color: var(--mauve);
     
 }
-/*----- Styles Généraux -----*/
+section{
+    background-color: var(--bs-dark);
+    background-image: linear-gradient(var(--bs-dark), var(--bs-success));
+    background-position: center;
+    background-repeat: repeat-y;
+    background-blend-mode: hard-light;
+    padding: 0;
+    margin: 0;
+   
+}
 /*----- Section Hero -----*/
 
 .cadre {
@@ -40,7 +51,6 @@ footer {
     border-radius: 15px;
     padding: 0;
     margin: 0;
-    height: 1050px;
 }
 
 .hero {
@@ -49,7 +59,16 @@ footer {
     width: 100%;
     height: 40px;
 }
+.hero:hover {
+    background-color: var(--mauve);
+}
 
+iframe {
+    border-radius: 15px;
+}
+/*---------------------------------------------------------- 
+# Section fonctinalite
+----------------------------------------------------------*/ 
 .box_fonctinalite {
     width: 75%;
     background-color: var(--rose);
@@ -68,10 +87,6 @@ hr {
     color: var(--vert);
 }
 
-iframe {
-    border-radius: 15px;
-}
-
 ul{
     margin: 0;
     padding: 0;
@@ -83,7 +98,9 @@ img {
     width: 100%;
     border-radius: 100%;
 }
-
+/*---------------------------------------------------------- 
+# Section accordion
+----------------------------------------------------------*/ 
 .accordion-item .accordion-header {
     background-color: var(--bs-success);
 }
@@ -91,9 +108,6 @@ img {
 .accordion-item .accordion-header .accordion-button {
     color: var(--bs-dark);;
 }
-
-
-
 
 .accordion-item:first-of-type .accordion-header{
     border-radius: 5px 5px 0 0 ;
@@ -118,12 +132,13 @@ img {
     background-color: var(--bs-success); 
 }
 
-
 .accordion-item:last-of-type .accordion-body{
     border-radius: 0 0 5px 5px ;
     border: 4px solid var(--bs-secondary);
 }
-
+/*---------------------------------------------------------- 
+# Section infolettre
+----------------------------------------------------------*/ 
 #infolettre {
     background-color: rgba(var(--bs-secondary-rgb), 0.65);
 }
@@ -135,7 +150,6 @@ img {
     aspect-ratio: 6/2;
 }
 
-
 .email-input {
     position: relative;
     display: inline-block;
@@ -143,22 +157,13 @@ img {
     border-radius: 5px;
 }
 
-
 .email {
     border: 0;
 }
 
-section{
-    background-color: var(--bs-dark);
-    background-image: linear-gradient(var(--bs-dark), var(--bs-success));
-    background-position: center;
-    background-repeat: repeat-y;
-    background-blend-mode: hard-light;
-    padding: 0;
-    margin: 0;
-   
-}
-
+/*---------------------------------------------------------- 
+# Section slider
+----------------------------------------------------------*/ 
 .slider-img{
     border-radius: 25px;
     width: 100%;
@@ -174,7 +179,6 @@ section{
     aspect-ratio: 5/3;
 }
 
-
 .swiper-slide-prev {
     opacity: 50%;
     height: 85%;
@@ -184,7 +188,9 @@ section{
     opacity: 50%;
     height: 85%;
 }
-
+/*---------------------------------------------------------- 
+# Section FAQ
+----------------------------------------------------------*/ 
 #FAQ {
     aspect-ratio: 9/3;
 }
