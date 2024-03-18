@@ -77,6 +77,8 @@ if (coeurIcon) {
   });
 */
 
+
+
 let swiperlp = document.querySelector(".swiper-screenshots");
 let swiper_app = document.querySelector(".swiper-filters");
 
@@ -114,4 +116,34 @@ if (swiperlp){
   })
 }
 
+if (window.location.href.includes("artwork.html")) {
+  let coeurButton = document.querySelector(".bouton-aime");
+  let coeurIcon = document.querySelector(".bi-heart");
+  coeurButton.addEventListener("click", function(){
+    if(coeurIcon.classList.contains("bi-heart-fill")){
+      coeurIcon.classList.add("bi-heart");
+      coeurIcon.classList.remove("bi-heart-fill");
+    } else if (coeurIcon.classList.contains("bi-heart")){
+      coeurIcon.classList.add("bi-heart-fill");
+      coeurIcon.classList.remove("bi-heart");
+    }
+  });
+}
 
+/*
+let coeurButton = document.querySelector(".bouton-aime");
+let coeurIcon = document.querySelector(".bi-heart");
+let coeurIconFill = document.querySelector(".bi-heart-fill");
+coeurButton.addEventListener("click", function(){
+  if(coeurIcon.classList.contains("inline")){
+    coeurIcon.classList.remove("inline");
+    coeurIcon.classList.add("none");
+    coeurIconFill.classList.remove("none");
+    coeurIconFill.classList.add("inline");
+  } else if (coeurIcon.classList.contains("none")){
+    coeurIcon.classList.remove("none");
+    coeurIcon.classList.add("inline");
+    coeurIconFill.classList.remove("inline");
+    coeurIconFill.classList.add("none");
+  }
+});*/
