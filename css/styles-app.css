@@ -232,7 +232,6 @@ img {
   height: 20vh;
   width: 100%;
   text-align: center;
-  /*background-color: white;*/
 }
 
 .image-oeuvre {
@@ -241,8 +240,7 @@ img {
 
 .autre-image{
   height: 20vh;
-  aspect-ratio: 1/1;
-  width: 120%;
+  width: 150%;
   object-fit: cover;
 }
 
