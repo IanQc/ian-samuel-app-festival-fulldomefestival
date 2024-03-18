@@ -265,6 +265,7 @@ img {
   border-radius: 50%;
   height: 8vh;
   padding: 0%;
+  border: solid 3px var(--noir);
 }
 
 .image-artwork-wrapper {
@@ -323,6 +324,23 @@ header {
 
 .text-vedette{
   width: 100vw;
+}
+
+label{
+  font-size: 16px;
+  color: var(--vert);
+}
+
+input{
+  background: none;
+  border: solid 1px var(--vert);
+  border-radius: 5%;
+  color: var(--vert);
+}
+
+.btn-tertiary{
+  background: none;
+  border: solid 1px var(--vert);
 }
 
 /*----- Section Hero -----*/
