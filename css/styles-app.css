@@ -224,7 +224,7 @@ img {
   overflow: hidden;
 }
 
-.card:hover {
+.vedette-cards:hover, .autre-image:hover {
   background-image: linear-gradient(var(--mauve), var(--rose));
 }
 
