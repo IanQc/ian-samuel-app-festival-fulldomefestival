@@ -224,17 +224,24 @@ img {
   overflow: hidden;
 }
 
-.vedette-cards:hover {
+.card:hover {
   background-image: linear-gradient(var(--mauve), var(--rose));
 }
 
-/*.cadre-oeuvre {
+.cadre-oeuvre {
   height: 20vh;
-  //background-color: white;*
-}*/
+  width: 100%;
+  text-align: center;
+}
 
 .image-oeuvre {
   height: 20vh;
+}
+
+.autre-image{
+  height: 20vh;
+  width: 150%;
+  object-fit: cover;
 }
 
 #vedette {
