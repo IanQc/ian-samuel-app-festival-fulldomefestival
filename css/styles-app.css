@@ -343,4 +343,9 @@ input{
   border: solid 1px var(--vert);
 }
 
+.vignette{
+  border-radius: 50%;
+  width: 150%;
+}
+
 /*----- Section Hero -----*/
